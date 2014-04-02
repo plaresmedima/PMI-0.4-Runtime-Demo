@@ -4,8 +4,11 @@ PMI-0.4-Runtime-Demo
 PMI version for basic perfusion analysis in DCE-MRI, DSC-MRI and DCE-CT.
 
 Author : Steven Sourbron 
+
 Email  : s.sourbron@leeds.ac.uk
+
 Software page: https://sites.google.com/site/plaresmedima
+
 Personal page: http://medhealth.leeds.ac.uk/profile/500/407/steven_sourbron
 
 
@@ -13,8 +16,11 @@ Functionality
 =============
 
 Skeleton menu
+
 Slices menu
+
 Dynamics menu
+
 Perfusion menu 
 
     Semi-quantitative (Pixel)
