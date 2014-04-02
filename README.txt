@@ -5,13 +5,18 @@ PMI version for basic perfusion analysis in DCE-MRI, DSC-MRI and DCE-CT.
 
 Source: PMI-0.4/Packages/Menus/PMI__Menu__Demo.pro
 
-Author : Steven Sourbron 
 
-Email  : s.sourbron@leeds.ac.uk
+--------------------------------------------------------------------------
+
+Author: Steven Sourbron 
+
+Email: s.sourbron@leeds.ac.uk
 
 Software page: https://sites.google.com/site/plaresmedima
 
 Personal page: http://medhealth.leeds.ac.uk/profile/500/407/steven_sourbron
+
+---------------------------------------------------------------------------
 
 
 Functionality
