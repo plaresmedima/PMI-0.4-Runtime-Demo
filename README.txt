@@ -3,6 +3,8 @@ PMI-0.4-Runtime-Demo
 
 PMI version for basic perfusion analysis in DCE-MRI, DSC-MRI and DCE-CT.
 
+Source: PMI-0.4/Packages/Menus/PMI__Menu__Demo.pro
+
 Author : Steven Sourbron 
 
 Email  : s.sourbron@leeds.ac.uk
@@ -26,10 +28,13 @@ Perfusion menu
     Semi-quantitative (Pixel)
     -------------------------
 
-        Calculates maps of three semi-quantitative parameters, ie. 
+        Calculates maps of three semi-quantitative parameters, ie.
+ 
         - Maximum Enhancement (a measure of perfusion)
         - Area under the curve (a measure of distribution space)
         - The ratio Area/maximum (a measure of mean transit time)
+        
+        Source: PMI-0.4/Packages/Perfusion/Buttons/PMI__Menu__SemiQuantitativePerfusion.pro
 
     Model-free (Pixel)
     ------------------
@@ -45,12 +50,16 @@ Perfusion menu
         when an intravascular indicator is used, 
         or when the indicator does not leak due to physiological barriers (ie. BBB).
         In all other conditions these parameters characterise the entire extracellular space.
+     
+        Source: PMI-0.4/Packages/Perfusion/Buttons/FastDeconvolutionAnalysis.pro
 
     Modified Tofts (Pixel)
     ----------------------
 
         Calculates maps of Ktrans, kep and ve using a linearised fit 
         for the modified Tofts model (Murase et al MRM 2004). 
+
+        Source: PMI-0.4/Packages/Perfusion/Buttons/FitModToftsLin.pro
 
     Exchange models (ROI)
     ---------------------
@@ -74,6 +83,8 @@ Perfusion menu
 
         Note: for a detailed discussion of these models and nomenclature,
         see Sourbron and Buckley NMR Biomed 2013. 
+
+        Source: PMI-0.4/Packages/Perfusion/Buttons/FitSingleInletRoi.pro
  
     Kidney models (ROI)
     -------------------
@@ -90,6 +101,8 @@ Perfusion menu
 
         Note: A discussion of these models and nomenclature can be found
         in Sourbron et al Invest Radiol 2008
+   
+        Source: PMI-0.4/Packages/Perfusion/Buttons/KidneyModelsROI.pro
       
     Liver models (ROI)
     ------------------
@@ -119,7 +132,8 @@ Perfusion menu
         The exchange-uptake model is three-compartmental 
         (plasma, interstitium, intracellular). These last two models
         are likely to be overparametrized in most situations.
-        
+         
+        Source: PMI-0.4/Packages/Perfusion/Buttons/FitDualInletRoi.pro
 
 
 
